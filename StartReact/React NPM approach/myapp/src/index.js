@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import App from "./App";
 
 // by JSX
 
@@ -12,13 +12,8 @@ React.createElement('div',null,"Hii saurav")
 ReactDOM.render(myname, document.getElementById("main"));
 ReactDOM.render(extraname, document.getElementById("extra"));
 
-// by javascript => creating react element 
-class App extends React.Component{
-    render(){
-        return React.createElement('div',null,'Hello world')
-    }
 
-}
-ReactDOM.render(
-    React.createElement(App, null), document.getElementById("root")
-);
+
+
+
+ReactDOM.render(<App/>, document.getElementById("original"))
