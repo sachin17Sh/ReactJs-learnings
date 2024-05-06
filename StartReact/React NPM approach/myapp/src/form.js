@@ -8,43 +8,51 @@ function MyForm(params) {
                 <h2>Personal Details</h2>
                 <label>
                     Name:
-                    <input type="text" name="name" />
                 </label>
+                <input type="text" name="name" />
                 <label>
                     DOB
-                    <input type="Date" name="dob" />
-                </label> <br/> <br/> 
+                </label>
+                <input type="Date" name="dob" />
+                <br /> <br />
                 <label>
                     Address:
-                    <input type="text" name="add" />
                 </label>
+                <input type="text" name="add" />
+
                 <label>
-                    State
-                    <input type="text" name="st" />
+                    State:
                 </label>
-                
+                <input type="text" name="st" />
+
+
             </div>
-            <div> 
+            <div>
                 <h2> Contact Info</h2>
                 <label>
                     E-mail:
-                    <input type="email" name="mail" />
                 </label>
-                
+                <input type="email" name="mail" />
+
+
                 <label>
                     Phone Number:
-                    <input type="tel" name="Pno" />
-                </label><br/><br/> 
+                </label>
+                <input type="tel" name="Pno" />
+                <br /><br />
                 <label>
                     Father Name:
-                    <input type="text" name="fname" />
                 </label>
+                <input type="text" name="fname" />
+
                 <label>
                     Mother Name:
-                    <input type="text" name="mname" />
                 </label>
+                <input type="text" name="mname" />
             </div>
-
+            <div>
+                <input type="Submit" name="Submit" />
+            </div>
         </form>
     );
 }
