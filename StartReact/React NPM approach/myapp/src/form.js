@@ -57,4 +57,4 @@ function MyForm(params) {
     );
 }
 
-// export default MyForm;
+export default MyForm;
