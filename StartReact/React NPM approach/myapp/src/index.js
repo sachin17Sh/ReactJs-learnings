@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
-import Myform from "./form";
+// import App from "./App";
+// import Myform from "./form";
+import Student from "./state";
 // by JSX
 
 // let myname = <h2> My name is sachin</h2>
@@ -21,4 +22,6 @@ import Myform from "./form";
 
 
 
-ReactDOM.render(<Myform/>,  document.getElementById("fname"))
+// ReactDOM.render(<Myform/>,  document.getElementById("fname"))
+
+ReactDOM.render(<Student/>,  document.getElementById("ns"))
