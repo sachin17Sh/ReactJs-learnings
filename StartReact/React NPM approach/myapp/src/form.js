@@ -1,9 +1,33 @@
-
 import React from 'react';
 import { useState } from 'react';
+import './index.css'
 
 function Myform() {
-    
+    const [formdata, setformdata] = useState({
+        fullname:'',
+        dob: '',
+        email:'',
+        mobileNumber:'',
+        gender:'',
+        occupation:'',
+        idType:'',
+        idNumber:'',
+        issueAuthority:'',
+        issueDate:'',
+        issueState:'',
+        expiryDate:''
+
+    })
+    const submitButton=(event)=>{
+        console.log(formdata);
+
+    }
+    const changevalue=(event)=>{
+        setformdata((prevvalue)=>({
+            ...prevvalue,[event.target.name]:event.target.value
+        }));
+    }
+
     return (
         <div>   
             <h1> Registration Form</h1>
@@ -11,63 +35,64 @@ function Myform() {
             <div>
                 <span style={{display: "inline-block",margin:"0 10px 0 10px"}} >
                      <label style={{display: "block"}} >Full Name</label>
-                     <input type="text" placeholder='Enter your Name' />
+                     <input type="text"  name='fullname' value={formdata.fullname} onChange={changevalue} placeholder='Enter your Name' />
                 </span>
                 <span style={{display: "inline-block",margin:"0 10px 0 10px"}}>
                     <label style={{display: "block"}}  >Date of Birth</label>
-                     <input type="Date" placeholder='Enter birth date' />
+                     <input type="Date" name='dob' value={formdata.dob} onChange={changevalue} placeholder='Enter birth date' />
                 </span>
                 <span style={{display: "inline-block",margin:"0 10px 0 10px"}}>
                     <label style={{display: "block"}} >Email</label>
-                    <input type="email" placeholder='Enter you Email' />
+                    <input type="email" name='email' value={formdata.email}  onChange={changevalue} placeholder='Enter you Email' />
                 </span>
             </div>
             <br />
             <div>
             <span style={{display: "inline-block",margin:"0 10px 0 10px"}} >
             <label style={{display: "block"}} >Mobile Number</label>
-            <input type="number" placeholder='Enter Mobile number' />
+            <input type="number" name='mobileNumber' value={formdata.mobileNumber}  onChange={changevalue} placeholder='Enter Mobile number' />
                 </span>
                 <span style={{display: "inline-block",margin:"0 10px 0 10px"}}>
                 <label style={{display: "block"}} >Gender</label>
-            <input type="text" placeholder='Enter your Gender' />
+            <input type="text" name='gender' value={formdata.gender}  onChange={changevalue} placeholder='Enter your Gender' />
             </span>
             <span style={{display: "inline-block",margin:"0 10px 0 10px"}}>
             <label style={{display: "block"}} >Occupation</label>
-            <input type="text" placeholder='Enter occupation' />
+            <input type="text" name='occupation' value={formdata.occupation}  onChange={changevalue} placeholder='Enter occupation' />
             </span>
             </div>
             <h2> Identity Details</h2>
             <div>
             <span style={{display: "inline-block",margin:"0 10px 0 10px"}}>
             <label style={{display: "block"}}> ID type</label>
-            <input type="text" placeholder='Enter ID type' />
+            <input type="text" name='idType' value={formdata.idType}  onChange={changevalue} placeholder='Enter ID type' />
             </span>
             <span style={{display: "inline-block",margin:"0 10px 0 10px"}}>
             <label style={{display: "block"}} >ID Number</label>
-            <input type="Number" placeholder='Enter ID Number' />
+            <input type="Number" name='idNumber' value={formdata.idNumber}  onChange={changevalue} placeholder='Enter ID Number' />
             </span>
             <span style={{display: "inline-block",margin:"0 10px 0 10px"}}>
             <label style={{display: "block"}} >Issue Authority</label>
-            <input type="text" placeholder='Enter issue Department' />
+            <input type="text" name='issueAuthority' value={formdata.issueAuthority}  onChange={changevalue} placeholder='Enter issue Department' />
             </span>
             </div> 
             <br/>
             <div>
             <span style={{display: "inline-block",margin:"0 10px 0 10px"}}>  
             <label style={{display: "block"}}  > Issue Date</label>
-            <input type="Date" placeholder='Enter ID issue Date' />
+            <input type="Date" name='issueDate' value={formdata.issueDate}  onChange={changevalue} placeholder='Enter ID issue Date' />
             </span>
             <span style={{display: "inline-block",margin:"0 10px 0 10px"}}>  
             <label style={{display: "block"}}  > Issue State</label>
-            <input type="text" placeholder='Enter issue ID state' />
+            <input type="text" name='issueState' value={formdata.issueState}  onChange={changevalue} placeholder='Enter issue ID state' />
             </span>
             <span style={{display: "inline-block",margin:"0 10px 0 10px"}}> 
             <label style={{display: "block"}}  > Expiry State</label>
-            <input type="Date" placeholder='Enter ID Expiry Date' />
+            <input type="Date" name='expiryDate' value={formdata.expiryDate}  onChange={changevalue} placeholder='Enter ID Expiry Date' />
             </span>
             </div> <br/>
-            <button type="submit">Next  </button>
+            <button onClick={submitButton}>Next  </button>
+
 
         </div>
 
@@ -75,21 +100,3 @@ function Myform() {
     )
 }
 export default Myform
-
-
-
-
- //     <div class="container text-center">
-        //         <div class="row">
-        //             <div class="col">
-        //             <label for="FUll Name"   class="form-label">Full Name</label>
-        //                 <input  type="text" class="form-control" placeholder="Enter your Name" aria-label="Enter your Name" aria-describedby="basic-addon1"/>
-        //             </div>
-
-        //             <div class="col">
-        //             <label for="Date of Birth"   class="form-label">Date of Birth</label> 
-        //             <input  type="Date" class="form-control" placeholder="Enter Date of Birth" aria-label="Enter Date of Birth" aria-describedby="basic-addon1"/></div>
-        //             <div class="col">col</div>
-        //             <div class="col">col</div>
-        //         </div>
-        //     </div>
