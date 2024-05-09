@@ -6,8 +6,8 @@
 .formhead{
     
     text-align: left;
-    width: 778px;
-    height: 598px;
+    /* width: 778px;
+    height: 598px; */
     background-color: white;
     position: absolute;
     top: 16%;
@@ -19,7 +19,7 @@ body{
 }
 
 .field {
-    width: 100%; 
+    /* width: 100%;  */
     padding: 10px;
     border: 1px solid #ccc; 
     border-radius: 5px; 
