@@ -12,14 +12,14 @@ body {
 }
 
 .btn {
-  background-color: #007bff;
-  color: #ffffff;
-  padding: 20px 20px;
-  border: none;
-  border-radius: 10px;
-  font-weight: bold;
-  width: 170px;
-  font-family: cursive;
+ padding: 12px 20px;
+ background-color: rgb(255, 191, 201);
+ color: white;
+ border: 2px solid #ecf0f1;
+ outline: none;
+ border-radius: 5px;
+ text-transform: uppercase;
+ cursor: pointer;
 
 }
 
