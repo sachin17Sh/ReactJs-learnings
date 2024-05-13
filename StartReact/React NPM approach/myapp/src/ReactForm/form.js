@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import './index.css';
+
 
 function Myform() {
     const [formdata, setformdata] = useState({
@@ -63,11 +63,6 @@ function Myform() {
         if (!formdata.issueState.trim()) {
             validateformErrors.issueState = "Please enter Issue State";
         }
-
-
-
-
-
         setnewerrors(validateformErrors);
 
         if (Object.keys(validateformErrors).length === 0) {
