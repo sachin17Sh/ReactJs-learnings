@@ -1,0 +1,22 @@
+.main {
+
+   height: 100vh;
+   background: #70a4e9;
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+}
+
+
+.btn {
+   padding: 25px 29px;
+   background-color: rgb(238, 92, 194);
+   color: white;
+   border: 5px solid #ecf0f1;
+   outline: none;
+   border-radius: 15px;
+   text-transform: uppercase;
+   cursor: pointer;
+
+}
