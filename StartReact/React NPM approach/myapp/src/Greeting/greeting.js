@@ -1,6 +1,6 @@
 function Greeting() {
 
-    let currHour = new Date();
+    let currHour = new Date(2024, 5, 14, 2);
     currHour = currHour.getHours();
     let greet = {};
     let stylecolor = {

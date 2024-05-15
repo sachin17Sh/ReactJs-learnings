@@ -8,7 +8,7 @@ const Eventlist = ()=> {
     const bgchnage = ()=>{
         let newbg = "rgb(255, 191, 201)"
         setbg(newbg)
-        setename("Aaye haye Aaye haye Bado Badi Bado Badi ")
+        setename("Aaye haye Aaye haye Bado Badi Bado Badi:SM ")
 
     }
 
