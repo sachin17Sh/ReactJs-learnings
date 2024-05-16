@@ -1,17 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import './asset/form.css';
-// import "./asset/count.css"
-//  import "./asset/events.css"
-  import "./asset/greet.css"
-// import Eventlist from "./ReactEvent/Event";
-// import App from "./Count/count"
+
 //  import Myform from "./ReactForm/form";
-import Greeting from "./Greeting/greeting";
+// import './asset/forms/form.css';
+// ReactDOM.render(<Myform/>,  document.getElementById("fname"))d
 
 
+// import "./asset/counting/count.css"
+// import App from "./Count/count"
 //  ReactDOM.render(<App/>,  document.getElementById("root"))
-// ReactDOM.render(<Myform/>,  document.getElementById("fname"))
 
+
+//  import "./asset/Eventname/events.css"
+// import Eventlist from "./ReactEvent/Event";
 //  ReactDOM.render(<Eventlist/>,  document.getElementById("eventing"))
- ReactDOM.render(<Greeting/>,  document.getElementById("timing"))
+
+
+// import "./asset/Greets/greet.css"
+// import Greeting from "./Greeting/greeting";
+//  ReactDOM.render(<Greeting/>,  document.getElementById("timing"))
+
+
+import './asset/clock/clock.css';
+import {Timechg} from "./timecheck/time.js";
+ ReactDOM.render(<Timechg/>,  document.getElementById("timechange"))
