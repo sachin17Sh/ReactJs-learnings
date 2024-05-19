@@ -8,9 +8,6 @@ export const Timechg = () => {
         setcurtime(time)
     }
     const [Pause, setPause] = useState();
-
-
-
     useEffect(() => {
         let timer = setInterval(() => {
             if (!Pause) {
@@ -22,8 +19,6 @@ export const Timechg = () => {
     function pauseHandler() {
         setPause(!Pause)
     }
-
-
     return (
         <div className='main'>
             <h1>Clock: {curtime}</h1>
