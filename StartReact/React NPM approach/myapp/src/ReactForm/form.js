@@ -150,7 +150,7 @@ function Myform() {
                 </span>
             </div>
             <br />
-            <button className="btn" onClick={submitButton}>Submit Form</button>
+            <button className="btnls" onClick={submitButton}>Submit Form</button>
         </div>
     );
 }

@@ -2,7 +2,7 @@ body {
   background: #cac6c6;
 }
 
-.main {
+.main1 {
   text-align: center;
   position: absolute;
   top: 35%;
@@ -13,7 +13,7 @@ body {
   border: 2px solid black
 }
 
-.btn {
+.btn1 {
   padding: 12px 20px;
   background-color: rgb(202, 63, 236);
   color: white;
@@ -25,6 +25,6 @@ body {
 
 }
 
-.btn:hover {
+.btn1:hover {
   background-color: #41dbe6;
 }

@@ -21,7 +21,7 @@ function Greeting() {
     }
 
     return (
-        <div className="main">
+        <div className="main2">
             <h1>Hello Bro, <span style={stylecolor}>{greet}</span></h1>
         </div>
     );

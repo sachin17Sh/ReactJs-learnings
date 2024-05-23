@@ -20,10 +20,10 @@ export const Timechg = () => {
         setPause(!Pause)
     }
     return (
-        <div className='main'>
+        <div className='main1'>
             <h1>Clock: {curtime}</h1>
-            <button className= "btn"onClick={pauseHandler}  >{ Pause ?'Continue':'Pause'}</button>
-            
+            <button className="btn1" onClick={pauseHandler}  >{Pause ? 'Continue' : 'Pause'}</button>
+
         </div>
     )
 }

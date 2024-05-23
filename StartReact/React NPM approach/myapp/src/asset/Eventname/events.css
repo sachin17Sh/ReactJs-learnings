@@ -1,4 +1,4 @@
-.main {
+.maincls{
 
    height: 100vh;
    background: #70a4e9;
@@ -9,7 +9,7 @@
 }
 
 
-.btn {
+.btnnum {
    padding: 25px 29px;
    background-color: rgb(238, 92, 194);
    color: white;

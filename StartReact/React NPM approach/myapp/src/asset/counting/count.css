@@ -2,7 +2,7 @@ body {
  background-color: rgb(255, 191, 201);
 }
 
-.main{
+.maincount{
   text-align: center;
   position: absolute;
   top: 32%;
@@ -11,7 +11,7 @@ body {
   font-family: cursive;
 }
 
-.btn {
+.btnname {
  padding: 12px 20px;
  background-color: rgb(255, 191, 201);
  color: white;
@@ -23,6 +23,6 @@ body {
 
 }
 
-.btn:hover {
+.btnname:hover {
   background-color: #41dbe6;
 }

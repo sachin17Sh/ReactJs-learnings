@@ -37,38 +37,47 @@ import React, { Component } from "react";
 // export default App;
 
 
-class App extends React.Component {
-    constructor(props) {
-        super()
-        this.state = {
-            fname: "Sachin",
-            lname: "Shamra"
-        }
 
-    }
-//passing object
-    handleclick = () => {
-        this.setState({
-            fname:"David",
-            lname: "Milan"
-        })
+// import Student from './student';
 
-    //set state passinf function
-    // handleclick = () => {
-    //     this.setState(function(state,props){
-    //         console.log(state);
-    //     })
-        
+// class App extends React.Component {
+//     constructor(props) {
+//         super(props);
+//         console.log("Constructor called");
+//     }
+// componentDidMount(){
+//     console.log("RENDERR");
+// }
+//     render() {
+//         console.log("App rendered");
+//         return (
+//             <div>
+//                 <h1>Hello</h1>
+//                 <h2>My name is Sachin</h2>
+//                 <div>
+//                     <Student />
+//                 </div>
+//             </div>
+//         );
+//     }
+// }
 
-    }
-    render() {
-        return (
-            <div>
-                <h1>Hello   </h1>
-                <h2>My name is {this.state.fname} {this.state.lname}</h2>
-                    <button onClick={this.handleclick}>Update </button>
-            </div>
-        );
-    }
+// export default App;
+
+function App() {
+    const array = ["2132", "324", "String",true, 194, "new"]
+    return (
+        <div>       
+            <h1>{array}</h1>          
+        </div >
+    )
+
 }
-export default App;
+export default App
+
+// you have create a stop watch 
+// but is bar logic tera khudh ka ho
+// with css
+// give me estimate time ? 
+
+// tomorrow final date 

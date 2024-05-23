@@ -11,14 +11,15 @@ const Eventlist = ()=> {
         console.log(value);
         setbg(newbg)
         setename("Aaye haye Aaye haye Bado Badi Bado Badi ")
+    const array = ["2132","324","String",true]
 
     }
 
 return(
     <>
-    <div  className= "main"style={{backgroundColor: bg}}>
-        <button  className= "btn"onClick={()=>bgchnage("Sachin")}>{ename}</button>
-
+    <div  className= "maincls"style={{backgroundColor: bg}}>
+        <button  className= "btnnum"onClick={()=>bgchnage("Sachin")}>{ename}</button>
+        
     </div>
     </>
 )
