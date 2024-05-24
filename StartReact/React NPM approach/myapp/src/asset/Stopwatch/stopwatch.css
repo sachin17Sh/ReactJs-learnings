@@ -1,0 +1,38 @@
+
+
+.mainwtc{
+    background-color: rgb(81, 81, 245);
+    padding: 25px;
+    width: 425px;
+    margin: 154px auto;
+    height: 44vh;
+    
+    border-radius: 10px;
+}
+
+.displaywatch {
+    background-color: white;
+    padding: 32px;
+    margin: 71px auto 0 auto;
+    border-radius: 33px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.btnstr{
+    background-color: white;
+    padding: 10px 20px; 
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+.btnstr:hover{
+    background: #71dbd2;
+}

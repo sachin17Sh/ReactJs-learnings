@@ -4,8 +4,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Ensure the body takes up the full viewport height */
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
+
+
+
 
 .main2 {
     background-color: #73d8e6;
