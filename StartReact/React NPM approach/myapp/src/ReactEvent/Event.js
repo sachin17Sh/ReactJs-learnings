@@ -11,7 +11,7 @@ const Eventlist = ()=> {
         console.log(value);
         setbg(newbg)
         setename("Aaye haye Aaye haye Bado Badi Bado Badi ")
-    const array = ["2132","324","String",true]
+   
 
     }
 

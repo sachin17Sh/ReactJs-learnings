@@ -1,13 +1,12 @@
-
-
-.mainwtc{
+.mainwtc {
     background-color: rgb(81, 81, 245);
     padding: 25px;
     width: 425px;
     margin: 154px auto;
     height: 44vh;
-    
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .displaywatch {
@@ -17,22 +16,28 @@
     border-radius: 33px;
     text-align: center;
     font-size: 60px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
-.controls{
+.controls {
     display: flex;
     justify-content: center;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
-.btnstr{
+.btnstr {
     background-color: white;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     margin: 10px;
     border-radius: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.btnstr:hover{
+.btnstr:hover {
     background: #71dbd2;
+    transform: scale(1.1);
 }
