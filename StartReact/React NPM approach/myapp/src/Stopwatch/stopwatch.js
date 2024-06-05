@@ -13,7 +13,7 @@ export const Stw = () => {
         }
         return () => clearInterval(timer);
     },[start]);
-    //dependency array 
+    //dependency array => use effect hook will re run only when the value of dependency array changes 
     function handleStart() {
         setstart(true)
 
@@ -36,6 +36,7 @@ export const Stw = () => {
         seconds = String(seconds).padStart(2, "0");
         milliseconds = String(milliseconds).padStart(2, "0");
 
+        // return hours + ':' + minutes + ':' + seconds + ':'+ milliseconds
         return `${hours}:${minutes}:${seconds}:${milliseconds}`
     }
 
@@ -51,8 +52,4 @@ export const Stw = () => {
     )
 }
 
-// Code
 
-// bonus
-// CSS
-// bootstrap

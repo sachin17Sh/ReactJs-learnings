@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "../src/asset/main.css"
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+
 
 //  import Myform from "./ReactForm/form";
 // ReactDOM.render(<Myform/>,  document.getElementById("root"))
@@ -27,10 +29,13 @@ import "../src/asset/main.css"
 // // ReactDOM.render(<App name= {45454} ollno={101}/>, document.getElementById("root"))
 // ReactDOM.render(<App>
 // <h2> THis is used to learn children in react </h2>
-// </App>, document.getElementById("root2"))
+// </App>, document.getElementById("root"))
 
 // import { Stw } from "./Stopwatch/stopwatch";
 // ReactDOM.render(<Stw/>, document.getElementById("root"))
 
-import List from "./List/List";
-ReactDOM.render(<List/>, document.getElementById("root"))
+// import List from "./List/List";
+// ReactDOM.render(<List/>, document.getElementById("root"))
+
+import Photo from "./Image&Assest Practice/Image&Assest";
+ReactDOM.render(<Photo/>, document.getElementById("root"));
