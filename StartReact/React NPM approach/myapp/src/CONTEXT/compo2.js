@@ -1,6 +1,5 @@
 import React from 'react';
-import { LastName } from '../App'; // Import LastName context
-import { Age } from '../App'; // Ensure you import Age context from its correct location
+import { LastName, Age } from '../App'; 
 
 export default function Comp2() {
   return (
