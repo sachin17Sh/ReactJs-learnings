@@ -25,7 +25,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css"
 
 
 
-// import App from "./App";
+// import App from "./App2";
 // // ReactDOM.render(<App name= {45454} ollno={101}/>, document.getElementById("root"))
 // ReactDOM.render(<App>
 // <h2> THis is used to learn children in react </h2>
@@ -37,5 +37,12 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css"
 // import List from "./List/List";
 // ReactDOM.render(<List/>, document.getElementById("root"))
 
-import Photo from "./Image&Assest Practice/Image&Assest";
-ReactDOM.render(<Photo/>, document.getElementById("root"));
+// import Photo from "./Image&Assest Practice/Image&Assest";
+// ReactDOM.render(<Photo/>, document.getElementById("root"));
+
+// import REFER from "./Ref&callbackrefs/ref";
+// ReactDOM.render(<REFER/>,document.getElementById("root"))
+
+
+import App from "./App";
+ReactDOM.render(<App/>,document.getElementById("root"))
